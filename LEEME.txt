@@ -1,0 +1,26 @@
+PARCHE PARA LARAVEL + TABLER
+
+1. Extrae el contenido de este ZIP en la carpeta raíz de tu proyecto Laravel (laravel-tabler), aceptando reemplazar los archivos.
+2. Abre una terminal en esa carpeta y ejecuta:
+   npm install
+   php artisan optimize:clear
+3. Si Vite no está ejecutándose, inicia:
+   npm run dev
+4. Abre http://127.0.0.1:8000/
+
+Rutas:
+- / Dashboard
+- /users Usuarios
+- /users/create Nuevo usuario (maqueta)
+- /users/profile Perfil (maqueta)
+- /charts Gráficos
+- /tables Tablas
+- /forms Formularios
+
+SweetAlert2:
+- "Probar SweetAlert2" muestra una alerta de éxito.
+- "Eliminar" muestra confirmación y aviso. No borra registros porque la pantalla aún usa datos ficticios.
+- La búsqueda filtra las filas visibles del ejemplo.
+
+Importante:
+Las páginas de usuarios, gráficos, tablas y formularios son maquetas visuales; aún no hay CRUD ni base de datos conectados. El archivo .env local no está incluido ni se modifica.
